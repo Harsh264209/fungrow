@@ -1,6 +1,5 @@
 
 {
-  "version": 3,
   "builds": [
     {
       "src": "dist/index.cjs",
@@ -18,4 +17,4 @@
     { "src": "/api/(.*)", "dest": "dist/index.cjs" },
     { "src": "/(.*)", "dest": "/client/dist/public/$1" }
   ]
-}
+}    
