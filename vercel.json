@@ -1,0 +1,21 @@
+
+{
+  "version": 3,
+  "builds": [
+    {
+      "src": "dist/index.cjs",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "client/dist/public"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "dist/index.cjs" },
+    { "src": "/(.*)", "dest": "/client/dist/public/$1" }
+  ]
+}
