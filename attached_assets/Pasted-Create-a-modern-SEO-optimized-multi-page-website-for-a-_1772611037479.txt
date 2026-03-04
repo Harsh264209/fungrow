@@ -1,0 +1,128 @@
+Create a modern, SEO-optimized multi-page website for a platform similar to Funngro.
+
+Project Goal:
+Build a dynamic 3-page website:
+1. Home Page
+2. Company Page (For Businesses hiring teen talent)
+3. Teen Page (For teenagers who want to earn)
+
+Tech Stack:
+- Use HTML, CSS (Tailwind via CDN), and minimal JavaScript
+- Clean folder structure
+- Fully responsive
+- Professional SaaS startup design
+- Fast loading and SEO optimized
+
+Folder Structure:
+/
+ ├── index.html
+ ├── company.html
+ ├── teen.html
+ ├── sitemap.xml
+ ├── robots.txt
+ └── assets/
+
+----------------------------------------
+GENERAL REQUIREMENTS:
+----------------------------------------
+
+1. SEO Optimization:
+- Each page must have unique <title>
+- Proper meta description
+- Keyword optimized content
+- Open Graph tags
+- Proper H1, H2, H3 hierarchy
+- Add Organization schema markup (JSON-LD)
+- Add alt attributes to images
+
+2. Design:
+- Modern SaaS UI
+- Hero section with CTA
+- Gradient buttons
+- Clean typography
+- Soft shadows
+- Mobile-first responsive design
+- Hover animations
+
+3. Performance:
+- No heavy libraries
+- Tailwind via CDN
+- Lightweight code
+- Lighthouse SEO friendly
+
+----------------------------------------
+PAGE STRUCTURE:
+----------------------------------------
+
+INDEX PAGE:
+- Hero: "Smart Teen Talent Platform"
+- Short intro
+- Two CTA buttons:
+    - Hire Teens
+    - Start Earning
+- Section explaining platform model
+- Footer
+
+----------------------------------------
+
+COMPANY PAGE:
+Title:
+"Hire Teen Talent for Your Business | Smart Student Freelancers"
+
+Sections:
+- Hero with strong headline
+- Problem section (High hiring cost, repetitive tasks)
+- Solution section
+- Benefits (Cost Effective, Innovative Ideas, Fast Delivery)
+- How It Works (4 steps)
+- Testimonials section
+- Strong CTA section
+- Footer
+
+SEO keywords to include naturally:
+- hire teen talent
+- teen freelancers
+- student freelancing platform
+- affordable digital workforce
+
+----------------------------------------
+
+TEEN PAGE:
+Title:
+"Earn While You Learn | Online Work for Teens"
+
+Sections:
+- Hero
+- Why Join
+- Skills Teens Can Offer
+- How It Works
+- Safety & Trust section
+- Final CTA
+- Footer
+
+SEO keywords:
+- teen jobs online
+- earn money as a student
+- part time work for teens
+- build student portfolio
+
+----------------------------------------
+
+SITEMAP.XML:
+Include all pages with priority levels.
+
+----------------------------------------
+
+ROBOTS.TXT:
+Allow all bots.
+Add sitemap URL placeholder.
+
+----------------------------------------
+
+Extra:
+- Add smooth scroll behavior
+- Add clean navbar on all pages
+- Add favicon placeholder
+- Make sure internal linking works properly
+
+Return all files fully written and ready to deploy.
