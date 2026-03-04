@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ShieldCheck, Award, Zap, Lightbulb, PenTool, Database } from "lucide-react";
+import { ShieldCheck, Award, Zap, Lightbulb, PenTool, Database, Briefcase } from "lucide-react";
 
 export default function Teen() {
   return (
